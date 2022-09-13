@@ -9,8 +9,6 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
-import org.springframework.security.provisioning.UserDetailsManager;
-
 @Entity
 @Table(name = "user")
 @Inheritance(strategy=InheritanceType.JOINED)
