@@ -1,4 +1,4 @@
-package com.facefinderserver.Login;
+package com.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,10 +9,11 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "admin")
-public class Admin extends User {
+public class AdminAccount extends UserAccount {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
+    
 }

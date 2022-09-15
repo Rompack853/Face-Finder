@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * wie z.B. registrieren eines Controllers, type Converter, Validation, Exception Handling etc.
  * Quelle: https://www.baeldung.com/spring-mvc-tutorial
  */
-@EnableWebMvc
+/*@EnableWebMvc
 @Configuration
 public class WebConfig implements WebMvcConfigurer{
     
@@ -20,3 +20,4 @@ public class WebConfig implements WebMvcConfigurer{
         registry.addViewController("/").setViewName("index");
     }
 }
+*/
